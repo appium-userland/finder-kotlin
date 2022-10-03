@@ -35,7 +35,7 @@ val dokkaJar by tasks.creating(Jar::class) {
 
 publishing {
     publications {
-        create<MavenPublication>("default") { 
+        create<MavenPublication>("mavenJava") { 
             from(components["java"])
             artifact(dokkaJar) 
         }
