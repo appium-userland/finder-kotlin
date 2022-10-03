@@ -3,3 +3,5 @@
 WIP
 
 
+Moved appium flutter finder in Kotlin for https://jitpack.io/ release
+
